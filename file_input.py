@@ -4,7 +4,6 @@ def function1(txt,pat,m,n):
         if txt[i:i+n] == pat:
             return i
     return -1
-
 f = open("input1.txt", "r")
 f2 = open("pattern.txt", "r")
 txt = f.read().strip()
