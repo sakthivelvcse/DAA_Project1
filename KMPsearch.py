@@ -1,5 +1,4 @@
 import time
-
 def KMPSearch(pat, txt):
     m = len(pat)
     n = len(txt)
@@ -40,10 +39,6 @@ def computeLPSArray(pat, m, lps):
             else:
                 lps[i] = 0
                 i += 1
-    #For printing the frequency pattern table
-    #print(list(pat))
-    #print(lps)
-
 txt = input("Enter text: ")
 pat = input("Enter pattern: ")
 stime =time.time()
